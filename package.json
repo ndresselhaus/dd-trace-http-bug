@@ -1,0 +1,17 @@
+{
+  "name": "dd-trace-http-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "DD_TRACE_DEBUG=true node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dd-trace": "^5.28.0",
+    "express": "^4.21.2"
+  }
+}
